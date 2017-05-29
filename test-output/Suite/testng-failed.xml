@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="crew_Admin.CrewJoiningSeniorityTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Adminm"/>
+          <include name="beforeSu"/>
+        </methods>
+      </class> <!-- crew_Admin.CrewJoiningSeniorityTest -->
+      <class name="crew_Admin.CrewStatusLibraryTest">
+        <methods>
+          <include name="EditSubStatus"/>
+          <include name="CrewStatus"/>
+          <include name="Crew"/>
+          <include name="AddStatus"/>
+          <include name="EditStatus"/>
+          <include name="afterMethod"/>
+          <include name="AddSubStatus"/>
+        </methods>
+      </class> <!-- crew_Admin.CrewStatusLibraryTest -->
+      <class name="crew_Admin.HandOverQuestionTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.HandOverQuestionTest -->
+      <class name="crew_Admin.DocumentTypeTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.DocumentTypeTest -->
+      <class name="crew_Admin.RankCategoryTest">
+        <methods>
+          <include name="initialioseBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- crew_Admin.RankCategoryTest -->
+      <class name="crew_Admin.CrewLeaveWagesWithholdRulesTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="Adminm"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.CrewLeaveWagesWithholdRulesTest -->
+      <class name="crew_Admin.CompanySeniorityRewardTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.CompanySeniorityRewardTest -->
+      <class name="crew_Admin.CrewSignOffReasonTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.CrewSignOffReasonTest -->
+      <class name="crew_Admin.CrewCardApproverTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="EditCrewCardApprover"/>
+          <include name="AddCrewCardApprover"/>
+          <include name="DeleteCrewCardApprover"/>
+          <include name="CrewAdmin"/>
+          <include name="Crew"/>
+        </methods>
+      </class> <!-- crew_Admin.CrewCardApproverTest -->
+      <class name="crew_Admin.joiningTypeTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.joiningTypeTest -->
+      <class name="crew_Admin.CrewRankTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.CrewRankTest -->
+      <class name="crew_Admin.CrewContractPeriodTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.CrewContractPeriodTest -->
+      <class name="crew_Admin.CrewWelfareAmountTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.CrewWelfareAmountTest -->
+      <class name="crew_Admin.AllotmentflagmailsettingsTest">
+        <methods>
+          <include name="Admin"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.AllotmentflagmailsettingsTest -->
+      <class name="crew_Admin.CashAdvanceLimitTest">
+        <methods>
+          <include name="Adminm"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.CashAdvanceLimitTest -->
+      <class name="crew_Admin.OilMajorsRuleGroupTest">
+        <methods>
+          <include name="Crew"/>
+          <include name="afterMethod"/>
+          <include name="InfoAndDeleteGroup"/>
+          <include name="beforeSu"/>
+          <include name="EditGroup"/>
+          <include name="AddGroup"/>
+        </methods>
+      </class> <!-- crew_Admin.OilMajorsRuleGroupTest -->
+      <class name="crew_Admin.OnBoardStaffLimitTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.OnBoardStaffLimitTest -->
+      <class name="crew_Admin.OilMajorTest">
+        <methods>
+          <include name="OilMajorModule1"/>
+          <include name="OilMajorModule"/>
+          <include name="afterMethod"/>
+          <include name="beforeSu"/>
+        </methods>
+      </class> <!-- crew_Admin.OilMajorTest -->
+      <class name="crew_Admin.DocumentGroupsTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.DocumentGroupsTest -->
+      <class name="crew_Admin.CrewRankScaleTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.CrewRankScaleTest -->
+      <class name="crew_Admin.TrainingTypesTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.TrainingTypesTest -->
+      <class name="crew_Admin.ContractTypeTest">
+        <methods>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.ContractTypeTest -->
+      <class name="crew_Admin.CrewStatusMappingTest">
+        <methods>
+          <include name="AddStatusMapping"/>
+          <include name="Crew"/>
+          <include name="EditStatusMapping"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.CrewStatusMappingTest -->
+      <class name="crew_Admin.OilMajorsRulesMappingTest">
+        <methods>
+          <include name="Adminm"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- crew_Admin.OilMajorsRulesMappingTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29281" started-at="2017-05-29T10:13:31Z" finished-at="2017-05-29T10:14:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29281" started-at="2017-05-29T10:13:31Z" finished-at="2017-05-29T10:14:01Z">
+      <class name="purchase_Admin.ProvisionsApprovalLimitTest">
+        <test-method status="PASS" signature="initialioseBrowser()[pri:0, instance:purchase_Admin.ProvisionsApprovalLimitTest@7e928e2f]" name="initialioseBrowser" is-config="true" duration-ms="10526" started-at="2017-05-29T15:43:20Z" finished-at="2017-05-29T15:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialioseBrowser -->
+        <test-method status="PASS" signature="beforeSu()[pri:0, instance:purchase_Admin.ProvisionsApprovalLimitTest@7e928e2f]" name="beforeSu" is-config="true" duration-ms="298" started-at="2017-05-29T15:43:31Z" depends-on-methods="TestCases.WebDriverPass.initialioseBrowser" finished-at="2017-05-29T15:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSu -->
+        <test-method status="PASS" signature="ProvisionsApprovalLimit()[pri:0, instance:purchase_Admin.ProvisionsApprovalLimitTest@7e928e2f]" name="ProvisionsApprovalLimit" duration-ms="9898" started-at="2017-05-29T15:43:31Z" finished-at="2017-05-29T15:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProvisionsApprovalLimit -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.ProvisionsApprovalLimitTest@7e928e2f]" name="afterMethod" is-config="true" duration-ms="250" started-at="2017-05-29T15:43:41Z" finished-at="2017-05-29T15:43:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProvisionsApprovalLimit status=SUCCESS method=ProvisionsApprovalLimitTest.ProvisionsApprovalLimit()[pri:0, instance:purchase_Admin.ProvisionsApprovalLimitTest@7e928e2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SetApprovalLimit()[pri:1, instance:purchase_Admin.ProvisionsApprovalLimitTest@7e928e2f]" name="SetApprovalLimit" duration-ms="19039" started-at="2017-05-29T15:43:41Z" finished-at="2017-05-29T15:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetApprovalLimit -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.ProvisionsApprovalLimitTest@7e928e2f]" name="afterMethod" is-config="true" duration-ms="79" started-at="2017-05-29T15:44:00Z" finished-at="2017-05-29T15:44:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SetApprovalLimit status=SUCCESS method=ProvisionsApprovalLimitTest.SetApprovalLimit()[pri:1, instance:purchase_Admin.ProvisionsApprovalLimitTest@7e928e2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:purchase_Admin.ProvisionsApprovalLimitTest@7e928e2f]" name="closeBrowser" is-config="true" duration-ms="793" started-at="2017-05-29T15:44:01Z" finished-at="2017-05-29T15:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- purchase_Admin.ProvisionsApprovalLimitTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

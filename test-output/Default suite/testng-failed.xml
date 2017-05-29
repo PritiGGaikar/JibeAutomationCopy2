@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="purchase_Admin.PurchaseQuestionnaireTest">
+        <methods>
+          <include name="initialioseBrowser"/>
+          <include name="AddNewQuestion"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="AddNewGrade"/>
+          <include name="DeleteAddedNewGrade"/>
+          <include name="DeleteNewQuestion"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- purchase_Admin.PurchaseQuestionnaireTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

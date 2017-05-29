@@ -1,0 +1,404 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>65/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 26 17:17:20 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1561 seconds (1561242 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='crew_Admin.CrewCardApproverTest.AddCrewCardApprover()'><b>AddCrewCardApprover</b><br>Test class: crew_Admin.CrewCardApproverTest</td>
+<td></td>
+<td>48</td>
+<td>crew_Admin.CrewCardApproverTest@73173f63</td></tr>
+<tr>
+<td title='crew_Admin.OilMajorsRuleGroupTest.AddGroup()'><b>AddGroup</b><br>Test class: crew_Admin.OilMajorsRuleGroupTest</td>
+<td></td>
+<td>24</td>
+<td>crew_Admin.OilMajorsRuleGroupTest@2cc3ad05</td></tr>
+<tr>
+<td title='crew_Admin.CrewStatusLibraryTest.AddStatus()'><b>AddStatus</b><br>Test class: crew_Admin.CrewStatusLibraryTest</td>
+<td></td>
+<td>27</td>
+<td>crew_Admin.CrewStatusLibraryTest@35e5d0e5</td></tr>
+<tr>
+<td title='crew_Admin.CrewStatusMappingTest.AddStatusMapping()'><b>AddStatusMapping</b><br>Test class: crew_Admin.CrewStatusMappingTest</td>
+<td></td>
+<td>33</td>
+<td>crew_Admin.CrewStatusMappingTest@25e2ab5a</td></tr>
+<tr>
+<td title='crew_Admin.CrewStatusLibraryTest.AddSubStatus()'><b>AddSubStatus</b><br>Test class: crew_Admin.CrewStatusLibraryTest</td>
+<td></td>
+<td>20</td>
+<td>crew_Admin.CrewStatusLibraryTest@35e5d0e5</td></tr>
+<tr>
+<td title='crew_Admin.AllotmentflagmailsettingsTest.Admin()'><b>Admin</b><br>Test class: crew_Admin.AllotmentflagmailsettingsTest</td>
+<td></td>
+<td>29</td>
+<td>crew_Admin.AllotmentflagmailsettingsTest@655ef322</td></tr>
+<tr>
+<td title='crew_Admin.RankCategoryTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.RankCategoryTest</td>
+<td></td>
+<td>9</td>
+<td>crew_Admin.RankCategoryTest@710b18a6</td></tr>
+<tr>
+<td title='crew_Admin.CrewRankTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.CrewRankTest</td>
+<td></td>
+<td>7</td>
+<td>crew_Admin.CrewRankTest@4c5474f5</td></tr>
+<tr>
+<td title='crew_Admin.joiningTypeTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.joiningTypeTest</td>
+<td></td>
+<td>7</td>
+<td>crew_Admin.joiningTypeTest@319bc845</td></tr>
+<tr>
+<td title='crew_Admin.CrewSignOffReasonTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.CrewSignOffReasonTest</td>
+<td></td>
+<td>7</td>
+<td>crew_Admin.CrewSignOffReasonTest@6bb2d00b</td></tr>
+<tr>
+<td title='crew_Admin.TrainingTypesTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.TrainingTypesTest</td>
+<td></td>
+<td>7</td>
+<td>crew_Admin.TrainingTypesTest@555cf22</td></tr>
+<tr>
+<td title='crew_Admin.CrewWelfareAmountTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.CrewWelfareAmountTest</td>
+<td></td>
+<td>7</td>
+<td>crew_Admin.CrewWelfareAmountTest@58ffcbd7</td></tr>
+<tr>
+<td title='crew_Admin.OnBoardStaffLimitTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.OnBoardStaffLimitTest</td>
+<td></td>
+<td>5</td>
+<td>crew_Admin.OnBoardStaffLimitTest@3ecd267f</td></tr>
+<tr>
+<td title='crew_Admin.CompanySeniorityRewardTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.CompanySeniorityRewardTest</td>
+<td></td>
+<td>46</td>
+<td>crew_Admin.CompanySeniorityRewardTest@77d2e85</td></tr>
+<tr>
+<td title='crew_Admin.ContractTypeTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.ContractTypeTest</td>
+<td></td>
+<td>40</td>
+<td>crew_Admin.ContractTypeTest@4233e892</td></tr>
+<tr>
+<td title='crew_Admin.CrewRankScaleTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.CrewRankScaleTest</td>
+<td></td>
+<td>35</td>
+<td>crew_Admin.CrewRankScaleTest@5066d65f</td></tr>
+<tr>
+<td title='crew_Admin.HandOverQuestionTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.HandOverQuestionTest</td>
+<td></td>
+<td>46</td>
+<td>crew_Admin.HandOverQuestionTest@3401a114</td></tr>
+<tr>
+<td title='crew_Admin.CrewContractPeriodTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.CrewContractPeriodTest</td>
+<td></td>
+<td>28</td>
+<td>crew_Admin.CrewContractPeriodTest@7e276594</td></tr>
+<tr>
+<td title='crew_Admin.CrewJoiningSeniorityTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.CrewJoiningSeniorityTest</td>
+<td></td>
+<td>28</td>
+<td>crew_Admin.CrewJoiningSeniorityTest@55562aa9</td></tr>
+<tr>
+<td title='crew_Admin.CrewLeaveWagesWithholdRulesTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.CrewLeaveWagesWithholdRulesTest</td>
+<td></td>
+<td>37</td>
+<td>crew_Admin.CrewLeaveWagesWithholdRulesTest@c055c54</td></tr>
+<tr>
+<td title='crew_Admin.OilMajorsRulesMappingTest.Adminm()'><b>Adminm</b><br>Test class: crew_Admin.OilMajorsRulesMappingTest</td>
+<td></td>
+<td>38</td>
+<td>crew_Admin.OilMajorsRulesMappingTest@119020fb</td></tr>
+<tr>
+<td title='crew_Admin.CrewCardApproverTest.Crew()'><b>Crew</b><br>Test class: crew_Admin.CrewCardApproverTest</td>
+<td></td>
+<td>6</td>
+<td>crew_Admin.CrewCardApproverTest@73173f63</td></tr>
+<tr>
+<td title='crew_Admin.CrewStatusLibraryTest.Crew()'><b>Crew</b><br>Test class: crew_Admin.CrewStatusLibraryTest</td>
+<td></td>
+<td>5</td>
+<td>crew_Admin.CrewStatusLibraryTest@35e5d0e5</td></tr>
+<tr>
+<td title='crew_Admin.CrewStatusMappingTest.Crew()'><b>Crew</b><br>Test class: crew_Admin.CrewStatusMappingTest</td>
+<td></td>
+<td>5</td>
+<td>crew_Admin.CrewStatusMappingTest@25e2ab5a</td></tr>
+<tr>
+<td title='crew_Admin.OilMajorsRuleGroupTest.Crew()'><b>Crew</b><br>Test class: crew_Admin.OilMajorsRuleGroupTest</td>
+<td></td>
+<td>5</td>
+<td>crew_Admin.OilMajorsRuleGroupTest@2cc3ad05</td></tr>
+<tr>
+<td title='crew_Admin.CrewCardApproverTest.DeleteCrewCardApprover()'><b>DeleteCrewCardApprover</b><br>Test class: crew_Admin.CrewCardApproverTest</td>
+<td></td>
+<td>26</td>
+<td>crew_Admin.CrewCardApproverTest@73173f63</td></tr>
+<tr>
+<td title='crew_Admin.DocumentGroupsTest.DocumentGroupm()'><b>DocumentGroupm</b><br>Test class: crew_Admin.DocumentGroupsTest</td>
+<td></td>
+<td>9</td>
+<td>crew_Admin.DocumentGroupsTest@1a9c38eb</td></tr>
+<tr>
+<td title='crew_Admin.DocumentTypeTest.DocumentTypem()'><b>DocumentTypem</b><br>Test class: crew_Admin.DocumentTypeTest</td>
+<td></td>
+<td>9</td>
+<td>crew_Admin.DocumentTypeTest@3c9bfddc</td></tr>
+<tr>
+<td title='crew_Admin.DocumentTypeTest.Edit()'><b>Edit</b><br>Test class: crew_Admin.DocumentTypeTest</td>
+<td></td>
+<td>28</td>
+<td>crew_Admin.DocumentTypeTest@3c9bfddc</td></tr>
+<tr>
+<td title='crew_Admin.CrewCardApproverTest.EditCrewCardApprover()'><b>EditCrewCardApprover</b><br>Test class: crew_Admin.CrewCardApproverTest</td>
+<td></td>
+<td>32</td>
+<td>crew_Admin.CrewCardApproverTest@73173f63</td></tr>
+<tr>
+<td title='crew_Admin.OilMajorsRuleGroupTest.EditGroup()'><b>EditGroup</b><br>Test class: crew_Admin.OilMajorsRuleGroupTest</td>
+<td></td>
+<td>29</td>
+<td>crew_Admin.OilMajorsRuleGroupTest@2cc3ad05</td></tr>
+<tr>
+<td title='crew_Admin.CrewStatusLibraryTest.EditStatus()'><b>EditStatus</b><br>Test class: crew_Admin.CrewStatusLibraryTest</td>
+<td></td>
+<td>27</td>
+<td>crew_Admin.CrewStatusLibraryTest@35e5d0e5</td></tr>
+<tr>
+<td title='crew_Admin.CrewStatusMappingTest.EditStatusMapping()'><b>EditStatusMapping</b><br>Test class: crew_Admin.CrewStatusMappingTest</td>
+<td></td>
+<td>28</td>
+<td>crew_Admin.CrewStatusMappingTest@25e2ab5a</td></tr>
+<tr>
+<td title='crew_Admin.CrewStatusLibraryTest.EditSubStatus()'><b>EditSubStatus</b><br>Test class: crew_Admin.CrewStatusLibraryTest</td>
+<td></td>
+<td>26</td>
+<td>crew_Admin.CrewStatusLibraryTest@35e5d0e5</td></tr>
+<tr>
+<td title='crew_Admin.OilMajorsRuleGroupTest.InfoAndDeleteGroup()'><b>InfoAndDeleteGroup</b><br>Test class: crew_Admin.OilMajorsRuleGroupTest</td>
+<td></td>
+<td>19</td>
+<td>crew_Admin.OilMajorsRuleGroupTest@2cc3ad05</td></tr>
+<tr>
+<td title='crew_Admin.OilMajorTest.OilMajorModule()'><b>OilMajorModule</b><br>Test class: crew_Admin.OilMajorTest</td>
+<td></td>
+<td>43</td>
+<td>crew_Admin.OilMajorTest@3d9f6567</td></tr>
+<tr>
+<td title='crew_Admin.OilMajorTest.OilMajorModule1()'><b>OilMajorModule1</b><br>Test class: crew_Admin.OilMajorTest</td>
+<td></td>
+<td>23</td>
+<td>crew_Admin.OilMajorTest@3d9f6567</td></tr>
+<tr>
+<td title='crew_Admin.joiningTypeTest.addPermanentStatus()'><b>addPermanentStatus</b><br>Test class: crew_Admin.joiningTypeTest</td>
+<td></td>
+<td>25</td>
+<td>crew_Admin.joiningTypeTest@319bc845</td></tr>
+<tr>
+<td title='crew_Admin.TrainingTypesTest.addTrainingTypes()'><b>addTrainingTypes</b><br>Test class: crew_Admin.TrainingTypesTest</td>
+<td></td>
+<td>19</td>
+<td>crew_Admin.TrainingTypesTest@555cf22</td></tr>
+<tr>
+<td title='crew_Admin.CrewWelfareAmountTest.addWelfareDetails()'><b>addWelfareDetails</b><br>Test class: crew_Admin.CrewWelfareAmountTest</td>
+<td></td>
+<td>25</td>
+<td>crew_Admin.CrewWelfareAmountTest@58ffcbd7</td></tr>
+<tr>
+<td title='crew_Admin.DocumentGroupsTest.addgroupnamem()'><b>addgroupnamem</b><br>Test class: crew_Admin.DocumentGroupsTest</td>
+<td></td>
+<td>21</td>
+<td>crew_Admin.DocumentGroupsTest@1a9c38eb</td></tr>
+<tr>
+<td title='crew_Admin.DocumentTypeTest.addnewdocumentType()'><b>addnewdocumentType</b><br>Test class: crew_Admin.DocumentTypeTest</td>
+<td></td>
+<td>63</td>
+<td>crew_Admin.DocumentTypeTest@3c9bfddc</td></tr>
+<tr>
+<td title='crew_Admin.CrewRankTest.addrank()'><b>addrank</b><br>Test class: crew_Admin.CrewRankTest</td>
+<td></td>
+<td>38</td>
+<td>crew_Admin.CrewRankTest@4c5474f5</td></tr>
+<tr>
+<td title='crew_Admin.joiningTypeTest.addrank()'><b>addrank</b><br>Test class: crew_Admin.joiningTypeTest</td>
+<td></td>
+<td>41</td>
+<td>crew_Admin.joiningTypeTest@319bc845</td></tr>
+<tr>
+<td title='crew_Admin.CrewSignOffReasonTest.addrank()'><b>addrank</b><br>Test class: crew_Admin.CrewSignOffReasonTest</td>
+<td></td>
+<td>18</td>
+<td>crew_Admin.CrewSignOffReasonTest@6bb2d00b</td></tr>
+<tr>
+<td title='crew_Admin.RankCategoryTest.addrankcategory()'><b>addrankcategory</b><br>Test class: crew_Admin.RankCategoryTest</td>
+<td></td>
+<td>18</td>
+<td>crew_Admin.RankCategoryTest@710b18a6</td></tr>
+<tr>
+<td title='crew_Admin.RankCategoryTest.delete()'><b>delete</b><br>Test class: crew_Admin.RankCategoryTest</td>
+<td></td>
+<td>13</td>
+<td>crew_Admin.RankCategoryTest@710b18a6</td></tr>
+<tr>
+<td title='crew_Admin.joiningTypeTest.delete()'><b>delete</b><br>Test class: crew_Admin.joiningTypeTest</td>
+<td></td>
+<td>20</td>
+<td>crew_Admin.joiningTypeTest@319bc845</td></tr>
+<tr>
+<td title='crew_Admin.DocumentTypeTest.delete()'><b>delete</b><br>Test class: crew_Admin.DocumentTypeTest</td>
+<td></td>
+<td>28</td>
+<td>crew_Admin.DocumentTypeTest@3c9bfddc</td></tr>
+<tr>
+<td title='crew_Admin.joiningTypeTest.deletePermanentStatus()'><b>deletePermanentStatus</b><br>Test class: crew_Admin.joiningTypeTest</td>
+<td></td>
+<td>24</td>
+<td>crew_Admin.joiningTypeTest@319bc845</td></tr>
+<tr>
+<td title='crew_Admin.RankCategoryTest.edit()'><b>edit</b><br>Test class: crew_Admin.RankCategoryTest</td>
+<td></td>
+<td>12</td>
+<td>crew_Admin.RankCategoryTest@710b18a6</td></tr>
+<tr>
+<td title='crew_Admin.RankCategoryTest.exportexcel()'><b>exportexcel</b><br>Test class: crew_Admin.RankCategoryTest</td>
+<td></td>
+<td>2</td>
+<td>crew_Admin.RankCategoryTest@710b18a6</td></tr>
+<tr>
+<td title='crew_Admin.CrewRankTest.exportexcel()'><b>exportexcel</b><br>Test class: crew_Admin.CrewRankTest</td>
+<td></td>
+<td>2</td>
+<td>crew_Admin.CrewRankTest@4c5474f5</td></tr>
+<tr>
+<td title='crew_Admin.joiningTypeTest.exportexcel()'><b>exportexcel</b><br>Test class: crew_Admin.joiningTypeTest</td>
+<td></td>
+<td>5</td>
+<td>crew_Admin.joiningTypeTest@319bc845</td></tr>
+<tr>
+<td title='crew_Admin.CrewWelfareAmountTest.filter()'><b>filter</b><br>Test class: crew_Admin.CrewWelfareAmountTest</td>
+<td></td>
+<td>24</td>
+<td>crew_Admin.CrewWelfareAmountTest@58ffcbd7</td></tr>
+<tr>
+<td title='crew_Admin.DocumentGroupsTest.filtergroupname()'><b>filtergroupname</b><br>Test class: crew_Admin.DocumentGroupsTest</td>
+<td></td>
+<td>27</td>
+<td>crew_Admin.DocumentGroupsTest@1a9c38eb</td></tr>
+<tr>
+<td title='crew_Admin.RankCategoryTest.search()'><b>search</b><br>Test class: crew_Admin.RankCategoryTest</td>
+<td></td>
+<td>4</td>
+<td>crew_Admin.RankCategoryTest@710b18a6</td></tr>
+<tr>
+<td title='crew_Admin.joiningTypeTest.search()'><b>search</b><br>Test class: crew_Admin.joiningTypeTest</td>
+<td></td>
+<td>32</td>
+<td>crew_Admin.joiningTypeTest@319bc845</td></tr>
+<tr>
+<td title='crew_Admin.DocumentTypeTest.search()'><b>search</b><br>Test class: crew_Admin.DocumentTypeTest</td>
+<td></td>
+<td>23</td>
+<td>crew_Admin.DocumentTypeTest@3c9bfddc</td></tr>
+<tr>
+<td title='crew_Admin.CrewSignOffReasonTest.search()'><b>search</b><br>Test class: crew_Admin.CrewSignOffReasonTest</td>
+<td></td>
+<td>31</td>
+<td>crew_Admin.CrewSignOffReasonTest@6bb2d00b</td></tr>
+<tr>
+<td title='crew_Admin.TrainingTypesTest.search()'><b>search</b><br>Test class: crew_Admin.TrainingTypesTest</td>
+<td></td>
+<td>27</td>
+<td>crew_Admin.TrainingTypesTest@555cf22</td></tr>
+<tr>
+<td title='crew_Admin.OnBoardStaffLimitTest.search()'><b>search</b><br>Test class: crew_Admin.OnBoardStaffLimitTest</td>
+<td></td>
+<td>36</td>
+<td>crew_Admin.OnBoardStaffLimitTest@3ecd267f</td></tr>
+<tr>
+<td title='crew_Admin.HandOverQuestionTest.search()'><b>search</b><br>Test class: crew_Admin.HandOverQuestionTest</td>
+<td></td>
+<td>39</td>
+<td>crew_Admin.HandOverQuestionTest@3401a114</td></tr>
+<tr>
+<td title='crew_Admin.joiningTypeTest.searchPermanentStatus()'><b>searchPermanentStatus</b><br>Test class: crew_Admin.joiningTypeTest</td>
+<td></td>
+<td>32</td>
+<td>crew_Admin.joiningTypeTest@319bc845</td></tr>
+<tr>
+<td title='crew_Admin.DocumentTypeTest.searchgroup()'><b>searchgroup</b><br>Test class: crew_Admin.DocumentTypeTest</td>
+<td></td>
+<td>25</td>
+<td>crew_Admin.DocumentTypeTest@3c9bfddc</td></tr>
+</table><p>
+</body>
+</html>
